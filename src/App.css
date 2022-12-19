@@ -1,0 +1,16 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --main-color: #29335c;
+  --sec-color: #5767aa;
+  --deep-red: #db2b39;
+  --text-color: #eee;
+}
+
+a {
+  text-decoration: none;
+}
