@@ -2,7 +2,7 @@ import React, { useRef } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import "./navbar.css";
 
-const Navbar = () => {
+const Navbar = ({ navItemOne, navItemTwo, navItemThree, navItemFour }) => {
   const navRef = useRef(null);
 
   const showNavbar = () => {
@@ -14,10 +14,10 @@ const Navbar = () => {
       <h1>Logo</h1>
 
       <nav ref={navRef}>
-        <a href="#">Contact</a>
-        <a href="#">About us</a>
-        <a href="#">sign In</a>
-        <a href="#">Register</a>
+        <a href="#">{navItemOne}</a>
+        <a href="#">{navItemTwo}</a>
+        <a href="#">{navItemThree}</a>
+        <a href="#">{navItemFour}</a>
 
         <button className="nav-btn nav-close" onClick={showNavbar}>
           <FaTimes />
