@@ -9,9 +9,25 @@
   --sec-color: #5767aa;
   --deep-red: #db2b39;
   --text-color: #eee;
+  --header-height: 3rem;
+  --nav-width: 68px;
+  --first-color: #2a287e;
+  --first-color-alt: #67575c;
+  --white-color: #f0c6de;
 }
 
 a {
   text-decoration: none;
   cursor: pointer;
 }
+
+/* ============= for side bar ================ */
+/* .App {
+  display: flex;
+}
+.App > div {
+  background-color: red;
+  margin-top: 60px;
+} */
+
+/* =============================================== */

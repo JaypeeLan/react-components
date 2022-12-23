@@ -6,6 +6,7 @@ import Home from "../components/navbars/navbarOne/Home";
 import About from "../components/navbars/navbarOne/About";
 import Services from "../components/navbars/navbarOne/Services";
 import NavbarTwo from "../components/navbars/navbarTwo/NavbarTwo";
+import Sidebar from "../components/navbars/sidebar/Sidebar";
 
 const Navbars = () => {
   return (
@@ -27,11 +28,12 @@ const Navbars = () => {
           btnTitle="Sign In"
         /> */}
 
-        <NavbarTwo />
+        {/* <NavbarTwo /> */}
+
+        <Sidebar />
         {/* ======================================= */}
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
           <Route path="/about" element={<About />} />
           <Route path="/services" element={<Services />} />
         </Routes>
