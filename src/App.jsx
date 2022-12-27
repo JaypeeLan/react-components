@@ -1,14 +1,13 @@
 import "./App.css";
 import Navbars from "./pages/Navbars";
-import { BrowserRouter as Router } from "react-router-dom";
+import Modals from "./pages/Modals";
 
 function App() {
   return (
-    // <Router>
     <div className="App">
-      <Navbars />
+      {/* <Navbars /> */}
+      <Modals />
     </div>
-    // </Router>
   );
 }
 
