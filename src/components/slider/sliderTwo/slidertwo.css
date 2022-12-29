@@ -1,0 +1,29 @@
+.item {
+  height: 25rem;
+  min-width: 30rem;
+  padding: 40px;
+}
+
+.item img {
+  width: 100%;
+  height: 100%;
+  border-radius: 2rem;
+  -webkit-border-radius: 2rem;
+  -moz-border-radius: 2rem;
+  -ms-border-radius: 2rem;
+  -o-border-radius: 2rem;
+  pointer-events: none;
+}
+
+.inner-carousel {
+  display: flex;
+}
+
+.carousel {
+  cursor: grab;
+  overflow: hidden;
+}
+
+body {
+  margin: 10% 20%;
+}

@@ -1,5 +1,14 @@
 /* set wrapper or app component to display flex and margin top on each routed component if you use react-router */
 /* This is to give space between the side bar and the current component  */
+
+/* .App {
+  display: flex;
+}
+.App > div {
+  background-color: red;
+  margin-top: 60px;
+} */
+
 ul {
   list-style: none;
 }
